@@ -1,0 +1,25 @@
+{
+    "name": "Screenshot extension",
+    "version": "1.0",
+    "description": "Building a screenshot taking extension",
+    "background": {
+        "scripts": [
+            "background.js"
+        ],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_icon": "aks.png",
+        "default_title": "Take a screen shot!"
+    },
+    "icons": {
+        "16": "images/aks.png",
+        "32": "images/aks.png",
+        "64": "images/aks.png",
+        "128": "images/aks.png"
+    },
+    "permissions": [
+        "activeTab"
+    ],
+    "manifest_version": 2
+}
